@@ -12,4 +12,6 @@ function takeANumber(katzDeliLine, name) {
     {if (katzDeliLine === []) {return `The line is currently empty.`}
     else {
     var newArray = `${i+1}, ${katzDeliLine[i]}`; 
-    return `The line is currently: ${newArray}.`}}}
+    return `The line is currently: ${newArray[i]}.`}}}
+    
+    
