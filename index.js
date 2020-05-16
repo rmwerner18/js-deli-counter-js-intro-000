@@ -9,6 +9,7 @@ function takeANumber(katzDeliLine, name) {
   
   function currentLine(katzDeliLine) {
     for (let i = 0; i < katzDeliLine.length; i++)
-    {if (katzDeliLine.length === undefined) {return `The line is currently empty.`}
+    {if (katzDeliLine.length === 0) {return `The line is currently empty.`}
     else {
-      katzDeliLine[i] = `${i+1}, ${katzDeliLine[i]}`; return `The line is currently: ${katzDeliLine}.`}}}
+    var newArray = `${i+1}, ${katzDeliLine[i]}`; 
+    return `The line is currently: ${newArray}.`}}}
